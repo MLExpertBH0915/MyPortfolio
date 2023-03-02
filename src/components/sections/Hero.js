@@ -35,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -61,20 +61,20 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+              <span className="text-color-primary">Brandon Hilbrands</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-                </p>
+                Software Engineer and Machine learning Engineer
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="primary" wideMobile href="https://docs.google.com/document/d/1aLLROoJao85sWK1sMiM8Bw40NJOVvf66/edit">
+                    Resume
+                  </Button>
+                  <Button tag="a" color="dark" wideMobile href="https://github.com/MLExpertBH0915/">
                     View on Github
-                    </Button>
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
