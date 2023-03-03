@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Summary',
+    paragraph: 'As a software engineer/machine learning engineer, I possess strong team working and communication skills that enable me to collaborate effectively with designers, project managers, and quality assurance engineers to deliver successful software projects/machine learning models. I excel at active listening, expressing ideas clearly, and giving and receiving constructive feedback. A culture of open communication and trust is essential for me to share ideas and perspectives freely and work collaboratively to achieve shared goals.'
   };
 
   return (
@@ -55,7 +55,7 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="left-content" />
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
@@ -71,11 +71,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Machine Learning
+                  </h4>
+                  <p className="m-0 text-sm justify">
+                    I have experience in developing and implementing machine learning algorithms and models for various applications, including natural language processing, computer vision, and predictive analytics, using tools such as Python, TensorFlow, Keras, scikit-learn, PyTorch, Numpy and so on.
+                  </p>
                 </div>
               </div>
             </div>
@@ -93,11 +93,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Computer Vision
+                  </h4>
+                  <p className="m-0 text-sm justify">
+                    I have experience in developing computer vision applications using deep learning frameworks such as TensorFlow and PyTorch, including image classification, object detection, segmentation, and tracking, and have worked with various libraries and tools such as OpenCV, Dlib, and YOLO.
+                  </p>
                 </div>
               </div>
             </div>
@@ -115,11 +115,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    NLP
+                  </h4>
+                  <p className="m-0 text-sm justify">
+                    I have experience in developing natural language processing (NLP) applications such as sentiment analysis, text classification, named entity recognition, and language translation using Python, NLTK, spaCy, and deep learning frameworks such as TensorFlow and PyTorch.
+                  </p>
                 </div>
               </div>
             </div>
@@ -137,11 +137,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Frontend Development
+                  </h4>
+                  <p className="m-0 text-sm justify">
+                    I have rich experience in developing responsive and user-friendly web applications using modern frontend technologies such as HTML, CSS, JavaScript, React, Angular, and Vue.js, and have worked on optimizing performance, user experience and accessibility.
+                  </p>
                 </div>
               </div>
             </div>
@@ -159,11 +159,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Backend Development
+                  </h4>
+                  <p className="m-0 text-sm justify">
+                    I have experience in designing, developing, and deploying scalable and efficient backend systems using various programming languages, frameworks, and technologies such as Node.js, Python, Flask, Django, SQL, MongoDB, AWS, and GCP, with a focus on ensuring high performance, security, and reliability.
+                  </p>
                 </div>
               </div>
             </div>
@@ -181,11 +181,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Data Science
+                  </h4>
+                  <p className="m-0 text-sm justify">
+                    I have experience in applying data science techniques such as data preprocessing, exploratory data analysis, statistical modeling, and machine learning algorithms to extract insights and value from data, using tools such as Python, R, SQL, scikit-learn, pandas, and matplotlib.
+                  </p>
                 </div>
               </div>
             </div>
