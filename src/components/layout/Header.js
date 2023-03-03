@@ -7,7 +7,6 @@ import Logo from './partials/Logo';
 const propTypes = {
   navPosition: PropTypes.string,
   hideNav: PropTypes.bool,
-  hideSignin: PropTypes.bool,
   bottomOuterDivider: PropTypes.bool,
   bottomDivider: PropTypes.bool
 }
@@ -15,7 +14,6 @@ const propTypes = {
 const defaultProps = {
   navPosition: '',
   hideNav: false,
-  hideSignin: false,
   bottomOuterDivider: false,
   bottomDivider: false
 }
@@ -24,7 +22,6 @@ const Header = ({
   className,
   navPosition,
   hideNav,
-  hideSignin,
   bottomOuterDivider,
   bottomDivider,
   ...props
@@ -44,7 +41,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -66,7 +63,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -115,14 +112,6 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>Documentation</Link>
                     </li>
                   </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>}
                 </div>
               </nav>
             </>}
